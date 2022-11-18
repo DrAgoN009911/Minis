@@ -1,14 +1,16 @@
 {
   "dependencies": {
     "com.unity.inputsystem": {
-      "version": "1.0.1",
+      "version": "1.4.1",
       "depth": 1,
       "source": "registry",
-      "dependencies": {},
+      "dependencies": {
+        "com.unity.modules.uielements": "1.0.0"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.timeline": {
-      "version": "1.4.5",
+      "version": "1.6.4",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -24,12 +26,12 @@
       "depth": 0,
       "source": "embedded",
       "dependencies": {
-        "jp.keijiro.rtmidi": "1.0.3",
+        "jp.keijiro.rtmidi": "1.0.4",
         "com.unity.inputsystem": "1.0.1"
       }
     },
     "jp.keijiro.rtmidi": {
-      "version": "1.0.3",
+      "version": "1.0.4",
       "depth": 1,
       "source": "registry",
       "dependencies": {},

@@ -1,48 +1,48 @@
 {
-    "name": "Sphere Actions",
+    "name": "New Controls",
     "maps": [
         {
             "name": "Actions",
-            "id": "24017309-51fb-49d4-9888-52a3e74ae9c4",
+            "id": "ed742529-02d0-429d-873d-e35ab6c29673",
             "actions": [
                 {
                     "name": "Hit",
                     "type": "Button",
-                    "id": "d4df89af-d9ef-4f96-9f77-b00c6fefbdc1",
-                    "expectedControlType": "",
+                    "id": "465e6d0d-e636-41b0-91f3-0aed4c3bd65d",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
                 },
                 {
                     "name": "Scale",
-                    "type": "Value",
-                    "id": "ca322236-ae16-47ad-b9a5-f40ec222dc23",
-                    "expectedControlType": "Axis",
+                    "type": "Button",
+                    "id": "cbfae0bc-0419-436a-acb0-c31d3b19f2cd",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
                 {
                     "name": "",
-                    "id": "49daf170-c962-49f4-9eed-ff9f2c724b3f",
-                    "path": "<MidiDevice>/note052",
+                    "id": "6613b67a-00da-4bcd-9346-7f3533df4f7e",
+                    "path": "<MidiDevice>/note050",
                     "interactions": "",
                     "processors": "",
-                    "groups": "MIDI Device",
+                    "groups": "",
                     "action": "Hit",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "b1570228-5a45-4cce-965e-f7823580e7be",
-                    "path": "<MidiDevice>/note069",
+                    "id": "d1adb9f9-d2f1-4c9e-80a2-398e14a73f54",
+                    "path": "<MidiDevice>/note057",
                     "interactions": "",
                     "processors": "",
-                    "groups": "MIDI Device",
+                    "groups": "",
                     "action": "Scale",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -50,17 +50,5 @@
             ]
         }
     ],
-    "controlSchemes": [
-        {
-            "name": "MIDI Device",
-            "bindingGroup": "MIDI Device",
-            "devices": [
-                {
-                    "devicePath": "<MidiDevice>",
-                    "isOptional": false,
-                    "isOR": false
-                }
-            ]
-        }
-    ]
+    "controlSchemes": []
 }
